@@ -1,0 +1,159 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style-type: none;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  /* background-color: #94cc6b; */
+}
+
+.black {
+  color: rgb(93, 89, 89);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  /* background-color: blanchedalmond; */
+  /* padding: 0 30px; */
+}
+
+.navleft {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: rgb(135, 135, 141); */
+}
+
+.logo {
+  color: aquamarine;
+  font-size: 30px;
+  width: 50%;
+  height: 100px;
+  /* background-color: blueviolet; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoname {
+  font-size: 10px;
+  width: 50%;
+  height: 100px;
+  /* background-color: rgb(199, 134, 49); */
+  display: flex;
+  align-items: center;
+}
+
+.navcenter {
+  width: 40%;
+  height: 100px;
+  /* background-color: rgb(153, 98, 31); */
+}
+
+.navcenter ul {
+  font-size: 25px;
+  height: inherit;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.black_a a {
+  color: aquamarine;
+}
+
+.navright {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.service {
+  color: aquamarine;
+  font-size: 25px;
+  width: 50%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #d43434; */
+}
+
+.servicename {
+  width: 60%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center; */
+  /* background-color: #dd4ba3; */
+  font-size: 10px;
+}
+
+#expect {
+  background-image: url(https://media.istockphoto.com/id/1203763961/photo/stacked-credit-cards.jpg?s=612x612&w=0&k=20&c=bEEGZwG120WKDClhmltyAtP0kPMzNir49P4JO3pcies=);
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textbox {
+  color: white;
+  text-align: center;
+  /* background-color: #94cc6b; */
+}
+
+.textbox h1 {
+  font-size: 50px;
+}
+
+.textbox h5 {
+  color: aquamarine;
+}
+
+#flexbox {
+  display: flex;
+  justify-content: center;
+  background-color: #eaebe0;
+}
+
+.box {
+  width: 50%;
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.txt {
+  width: 40%;
+  min-height: 200px;
+  background-color: white;
+  text-align: center;
+  margin: 7px;
+}
+
+.color {
+  color: aquamarine;
+  font-size: 29px;
+}
+
+.size {
+  font-size: 20px;
+}
+
+.gray {
+  color: gray;
+}
